@@ -1,2 +1,12 @@
-// Write your JavaScript code here.
-// Remember to pay attention to page loading!
+let button = null;
+
+function init () {
+    button = document.getElementById("takeoff")
+
+    button.addEventListener("click", function() {
+        alert("Confirm that the shuttle is ready for takeoff.")
+      });
+}
+
+
+
